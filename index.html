@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Personal Encrypted Backup</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { max-width: 760px; margin: 0 auto; padding: 48px 22px 80px; line-height: 1.65; }
+    h1 { line-height: 1.15; letter-spacing: -0.025em; }
+    h2 { margin-top: 2rem; }
+    .note { padding: 1rem 1.1rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 12px; }
+    footer { margin-top: 3rem; font-size: 0.9rem; opacity: 0.72; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Personal Encrypted Backup</h1>
+    <p>Personal Encrypted Backup is a private, single-user desktop backup utility. It creates client-side encrypted backup snapshots and stores them in the user's own Google Drive account.</p>
+
+    <div class="note"><strong>Private by design:</strong> backup contents are encrypted on the user's computer before upload. This information page does not provide access to any backup, repository, account, or recovery credential.</div>
+
+    <h2>How Google Drive access is used</h2>
+    <ul>
+      <li>Upload new encrypted backup data.</li>
+      <li>Read encrypted backup data for integrity checks and restoration.</li>
+      <li>List and manage files created for the backup repository.</li>
+    </ul>
+
+    <h2>Data handling</h2>
+    <p>The utility is operated locally by its sole user. It does not run a separate application server, sell Google user data, use it for advertising, or share it with third parties. Google Drive access is used only to perform backup, verification, maintenance, and restoration requested by the user.</p>
+
+    <h2>Access control</h2>
+    <p>Only the Google account that explicitly authorizes the utility can be used. Access can be revoked at any time from the Google Account security settings.</p>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </main>
+  <footer>Last updated: October 2, 2026</footer>
+</body>
+</html>
